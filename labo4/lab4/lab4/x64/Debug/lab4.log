@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4\x64\Debug\kernel.cu.obj "D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4\kernel.cu" 
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4\kernel.cu(255): warning #177-D: variable "arrayLength" was declared but never referenced
+        int arrayLength = (sizeof(a) / sizeof(a[0]));
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4\kernel.cu(257): warning #177-D: variable "amountOfRows" was declared but never referenced
+        int amountOfRows = rowLength;
+            ^
+  
+  kernel.cu
+  tmpxft_00004ebc_00000000-7_kernel.cudafe1.cpp
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\lab4\kernel.cu(187): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  lab4.vcxproj -> D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo4\lab4\x64\Debug\lab4.exe
