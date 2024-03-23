@@ -1,0 +1,21 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\x64\Debug\kernel.cu.obj "D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu" 
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(554): warning #177-D: variable "blocks_per_grid" was declared but never referenced
+        int blocks_per_grid = (2048 + threads_per_block - 1) / threads_per_block;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  kernel.cu
+  tmpxft_00004a84_00000000-7_kernel.cudafe1.cpp
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(568): warning C4244: 'initializing': conversion from '_Rep' to 'float', possible loss of data
+          with
+          [
+              _Rep=double
+          ]
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(664): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(665): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(666): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\lab5\kernel.cu(667): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  lab5.vcxproj -> D:\Ku_Leuven\2023-2024\Geavanceerde_computerarchitectuur\labo5\lab5\x64\Debug\lab5.exe
