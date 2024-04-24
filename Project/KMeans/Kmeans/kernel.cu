@@ -7,6 +7,7 @@
 #include "device_launch_parameters.h"
 #include <stdio.h>
 #include <iomanip>
+#include <chrono>
 using namespace std;
 //https://reasonabledeviations.com/2019/10/02/k-means-in-cpp/#c-preambles
 
@@ -33,6 +34,19 @@ struct Location {
         cluster(cluster),
         minDistance(DBL_MAX) {}
 };
+
+__global__ void AssignLocationKernel(Location* locations, Location* centers, int amount_of_locations, int amount_of_centers) {
+	int i = threadIdx.x + blockIdx.x * blockDim.x;
+	if (i < amount_of_locations) {
+		for (int j = 0; j < amount_of_centers; j++) {
+			double distance = sqrt((locations[i].lat - centers[j].lat) * (locations[i].lat - centers[j].lat) + (locations[i].lon - centers[j].lon) * (locations[i].lon - centers[j].lon));
+			if (distance < locations[i].minDistance) {
+				locations[i].minDistance = distance;
+				locations[i].cluster = j;
+			}
+		}
+	}
+}
 
 //struct Center {
 //    float lat, lon;
@@ -69,7 +83,7 @@ vector<Location> readLocationsCsv() {
     }
     return locations;
 }
-void AssignLocationToCenter(Location* l, vector<Location>* centers) { //Fout??
+void AssignLocationToCenter(Location* l, vector<Location>* centers) {
     for (int i = 0; i <centers->size(); i++) {
         double distance = calculateDistanceCPU(*l, centers->at(i));
         if (distance < l->minDistance) {
@@ -77,6 +91,33 @@ void AssignLocationToCenter(Location* l, vector<Location>* centers) { //Fout??
             l->cluster = i;
         }
     }
+}
+
+void AssignLocationToCenterGPU(vector<Location>* locations, vector<Location>* centers) {
+    //Allocate memory on GPU
+    Location* GPULocations = NULL;
+    Location* GPUCenters = NULL;
+    cudaMalloc((void**)&GPULocations, locations->size()  *sizeof(Location));
+    cudaMalloc((void**)&GPUCenters, centers->size() * sizeof(Location));
+
+    //Copy data from host to device
+    cudaMemcpy(GPULocations, locations->data(), locations->size() * sizeof(Location), cudaMemcpyHostToDevice);
+    cudaMemcpy(GPUCenters, centers->data(), centers->size() * sizeof(Location), cudaMemcpyHostToDevice);
+    
+    //Threads per block
+    int threadsPerBlock = 1024;
+    int blocksPerGrid = (locations->size() + threadsPerBlock - 1) / threadsPerBlock; //Can we optimize this?
+
+    //Call kernel
+    AssignLocationKernel<<<blocksPerGrid, threadsPerBlock>>>(GPULocations, GPUCenters, locations->size(), centers->size());
+
+    //Copy data from device to host
+    cudaMemcpy(locations->data(), GPULocations, locations->size() * sizeof(Location), cudaMemcpyDeviceToHost);
+
+    //Free memory
+    cudaFree(GPULocations);
+    cudaFree(GPUCenters);
+
 }
 void WriteCentersToFile(vector<Location>* centers, int k) {
 	std::ofstream myfile;
@@ -91,13 +132,30 @@ void WriteCentersToFile(vector<Location>* centers, int k) {
 	myfile << "----------------------------" << endl;
 	myfile.close();
 }
+void WriteCentersToFileGPU(vector<Location>* centers, int k) {
+    std::ofstream myfile;
+    myfile.open("outputGPU.csv", std::ios::app);
+    myfile << "============================" << endl;
+    myfile << "K: " << k << endl;
+    myfile << "----------------------------" << endl;
+    for (vector<Location>::iterator it = centers->begin();
+        it != centers->end(); ++it) {
+        myfile << "Cluster: " << it->cluster << ", latitude:  " << std::fixed << std::setprecision(6) << it->lat << ", longitude: " << std::fixed << std::setprecision(6) << it->lon << endl;
+    }
+    myfile << "----------------------------" << endl;
+    myfile.close();
+}
 
 
-void resetOutputFile() {
+void resetOutputFiles() {
     std::ofstream outputFile;
     outputFile.open("output.csv", std::ios::trunc); // Open file in truncation mode
     outputFile.close(); // Close the file
-    std::cout << "File reset successfully." << std::endl;
+    std::cout << "Cpu file reset successfully." << std::endl;
+    std::ofstream outputFileGPU;
+    outputFileGPU.open("outputGPU.csv", std::ios::trunc); // Open file in truncation mode
+    outputFileGPU.close(); // Close the file
+    std::cout << "Gpu file reset successfully." << std::endl;
 }
 
 bool CalculateCenterSums(vector<Location>* locations, vector<Location>* centers) {
@@ -136,21 +194,21 @@ bool CalculateCenterSums(vector<Location>* locations, vector<Location>* centers)
 //  * locations: locations that need to be clustered
 //  * iterations: amount of iterations before quiting
 //  * k: amount of clusters that will be used
-void KmeansCPU(vector<Location>* locations, int iterations, int k) {
-    vector<Location> centers;
+void KmeansCPU(vector<Location>* locations, int iterations, int k, vector<Location>* centers) {
+    /*vector<Location> centers;
     int amount_of_locations = locations->size();
     srand(time(0));
     for (int i = 0; i < k; i++) {
         Location l = locations->at(rand() % amount_of_locations);
         centers.push_back(Location(l.lat,l.lon, i));
-    }
-
+    }*/
+    int amount_of_locations = locations->size();
     for (int j = 0; j < iterations; j++) {
         for (int i = 0; i < amount_of_locations; i++) {
-            AssignLocationToCenter(&locations->at(i), &centers);
+            AssignLocationToCenter(&locations->at(i), centers);
         }
-        if (CalculateCenterSums(locations, &centers)) {
-            WriteCentersToFile(&centers,k);
+        if (CalculateCenterSums(locations, centers)) {
+            WriteCentersToFile(centers,k);
             break;
         }
         /*else {
@@ -158,6 +216,31 @@ void KmeansCPU(vector<Location>* locations, int iterations, int k) {
         }*/
     }
 }
+
+void KmeansGPU(vector<Location>* locations, int iterations, int k, vector<Location>* centers) {
+	/*vector<Location> centers;
+	int amount_of_locations = locations->size();
+	srand(time(0));
+	for (int i = 0; i < k; i++) {
+		Location l = locations->at(rand() % amount_of_locations);
+		centers.push_back(Location(l.lat, l.lon, i));
+	}*/
+
+
+	for (int j = 0; j < iterations; j++) {
+        AssignLocationToCenterGPU(locations, centers);
+		if (CalculateCenterSums(locations, centers)) {
+			WriteCentersToFileGPU(centers, k);
+			break;
+		}
+		/*else {
+			WriteCentersToFile(&centers);
+		}*/
+	}
+}
+
+
+
 void ResetLocationClusters(vector<Location>* locations) {
 	for (int i = 0; i < locations->size(); i++) {
 		locations->at(i).cluster = -1;
@@ -165,16 +248,41 @@ void ResetLocationClusters(vector<Location>* locations) {
 	}
 }
 
+vector<Location> GetCenterLocations(vector<Location>* locations, int k) {
+    vector<Location> centers;
+    int amount_of_locations = locations->size();
+    srand(time(0));
+    for (int i = 0; i < k; i++) {
+        Location l = locations->at(rand() % amount_of_locations);
+        centers.push_back(Location(l.lat, l.lon, i));
+    }
+    return centers;
+}
+
 
 int main()
 {
 
-    resetOutputFile();
+    resetOutputFiles();
     vector<Location> locations= readLocationsCsv(); //Get locations
     int k = 24;
-    for (int i = 0; i < k; i++) {
-        KmeansCPU(&locations, 1000, k-i*2);
+    vector<Location> centers = GetCenterLocations(&locations, k);
+    for (int i = 0; i < k/2; i++) {
+        //Execute Kmeans on CPU
+        const auto startCPU = std::chrono::steady_clock::now();
+        KmeansCPU(&locations, 1000, k-i*2, &centers);
+        const auto endCPU = std::chrono::steady_clock::now();
+        //Execute Kmeans on GPU
+        const auto startGPU = std::chrono::steady_clock::now();
+        KmeansGPU(&locations, 1000, k - i * 2, &centers);
+        const auto endGPU = std::chrono::steady_clock::now();
+        //Reset clusters
         ResetLocationClusters(&locations);
+        const std::chrono::duration<double, milli> elapsed_secondsCPU{ endCPU - startCPU };
+        const std::chrono::duration<double, milli> elapsed_secondsGPU{ endGPU - startGPU };
+        cout << "CPU: " << elapsed_secondsCPU.count() << "ms" << endl;
+        cout << "GPU: " << elapsed_secondsGPU.count() << "ms" << endl;
+        //cout << "K: " << k - i * 2 << endl;
     }
     //KmeansCPU(&locations, 20, 5);
     cout << "test";

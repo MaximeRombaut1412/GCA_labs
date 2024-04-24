@@ -1,204 +1,336 @@
 ============================
 K: 24
 ----------------------------
-Cluster: 0, latitude:  -33.700455, longitude: 151.135971
-Cluster: 1, latitude:  -16.247381, longitude: 140.517487
-Cluster: 2, latitude:  -36.196228, longitude: 139.508377
-Cluster: 3, latitude:  -33.934921, longitude: 151.154465
-Cluster: 4, latitude:  -33.748760, longitude: 141.716629
-Cluster: 5, latitude:  -42.858498, longitude: 147.347534
-Cluster: 6, latitude:  -28.550577, longitude: 153.362183
-Cluster: 7, latitude:  -37.426456, longitude: 143.424866
-Cluster: 8, latitude:  -33.438358, longitude: 116.480606
-Cluster: 9, latitude:  -20.435907, longitude: 147.520309
-Cluster: 10, latitude:  -32.843037, longitude: 151.523621
-Cluster: 11, latitude:  -27.756802, longitude: 153.216995
-Cluster: 12, latitude:  -34.625210, longitude: 138.417664
-Cluster: 13, latitude:  -27.592756, longitude: 151.262741
-Cluster: 14, latitude:  -27.248278, longitude: 152.980789
-Cluster: 15, latitude:  -24.581629, longitude: 151.651993
-Cluster: 16, latitude:  -37.818962, longitude: 146.491257
-Cluster: 17, latitude:  -37.992680, longitude: 145.167938
-Cluster: 18, latitude:  -31.309719, longitude: 116.080200
-Cluster: 19, latitude:  -35.558136, longitude: 146.230713
-Cluster: 20, latitude:  -37.777782, longitude: 144.800262
-Cluster: 21, latitude:  -34.259151, longitude: 150.311874
-Cluster: 22, latitude:  -41.332542, longitude: 146.711716
-Cluster: 23, latitude:  -31.018129, longitude: 152.050949
+Cluster: 0, latitude:  -38.068939, longitude: 145.334030
+Cluster: 1, latitude:  -41.002457, longitude: 146.442596
+Cluster: 2, latitude:  -38.114693, longitude: 146.299316
+Cluster: 3, latitude:  -35.235065, longitude: 146.916138
+Cluster: 4, latitude:  -32.420662, longitude: 151.732101
+Cluster: 5, latitude:  -37.834862, longitude: 145.178253
+Cluster: 6, latitude:  -33.415321, longitude: 150.251724
+Cluster: 7, latitude:  -37.789536, longitude: 144.724091
+Cluster: 8, latitude:  -26.791124, longitude: 152.885056
+Cluster: 9, latitude:  -27.432348, longitude: 153.079849
+Cluster: 10, latitude:  -33.905815, longitude: 150.859665
+Cluster: 11, latitude:  -33.676071, longitude: 151.255722
+Cluster: 12, latitude:  -38.143093, longitude: 145.150360
+Cluster: 13, latitude:  -29.810953, longitude: 152.232742
+Cluster: 14, latitude:  -36.363838, longitude: 144.960663
+Cluster: 15, latitude:  -35.106571, longitude: 150.373169
+Cluster: 16, latitude:  -28.156235, longitude: 153.399948
+Cluster: 17, latitude:  -34.129372, longitude: 151.011887
+Cluster: 18, latitude:  -25.741663, longitude: 151.122452
+Cluster: 19, latitude:  -35.051781, longitude: 139.131256
+Cluster: 20, latitude:  -18.300812, longitude: 144.093002
+Cluster: 21, latitude:  -35.500759, longitude: 149.049698
+Cluster: 22, latitude:  -27.634638, longitude: 153.044464
+Cluster: 23, latitude:  -31.767296, longitude: 116.166252
 ----------------------------
 ============================
 K: 22
 ----------------------------
-Cluster: 0, latitude:  -21.608618, longitude: 147.815033
-Cluster: 1, latitude:  -38.193661, longitude: 145.422104
-Cluster: 2, latitude:  -42.072323, longitude: 147.018387
-Cluster: 3, latitude:  -37.879818, longitude: 145.287033
-Cluster: 4, latitude:  -35.282482, longitude: 140.706833
-Cluster: 5, latitude:  -37.813629, longitude: 145.095657
-Cluster: 6, latitude:  -35.377132, longitude: 148.991699
-Cluster: 7, latitude:  -37.916756, longitude: 144.114670
-Cluster: 8, latitude:  -32.567852, longitude: 149.719650
-Cluster: 9, latitude:  -37.531338, longitude: 144.715256
-Cluster: 10, latitude:  -35.724072, longitude: 145.897903
-Cluster: 11, latitude:  -38.091137, longitude: 145.062881
-Cluster: 12, latitude:  -29.849955, longitude: 152.709335
-Cluster: 13, latitude:  -38.025806, longitude: 146.847366
-Cluster: 14, latitude:  -27.537962, longitude: 152.998520
-Cluster: 15, latitude:  -34.861023, longitude: 138.633896
-Cluster: 16, latitude:  -33.731918, longitude: 151.125885
-Cluster: 17, latitude:  -37.581871, longitude: 145.064194
-Cluster: 18, latitude:  -31.737064, longitude: 117.965317
-Cluster: 19, latitude:  -27.857515, longitude: 153.313385
-Cluster: 20, latitude:  -34.913261, longitude: 138.091507
-Cluster: 21, latitude:  -26.764923, longitude: 152.417160
+Cluster: 0, latitude:  -38.097324, longitude: 145.399887
+Cluster: 1, latitude:  -42.070827, longitude: 147.019104
+Cluster: 2, latitude:  -38.066051, longitude: 146.770187
+Cluster: 3, latitude:  -35.550751, longitude: 146.809433
+Cluster: 4, latitude:  -32.569317, longitude: 151.822281
+Cluster: 5, latitude:  -37.783768, longitude: 145.100525
+Cluster: 6, latitude:  -32.828300, longitude: 149.061783
+Cluster: 7, latitude:  -37.838593, longitude: 144.345581
+Cluster: 8, latitude:  -26.371553, longitude: 152.850418
+Cluster: 9, latitude:  -27.383951, longitude: 153.048279
+Cluster: 10, latitude:  -33.833523, longitude: 150.905136
+Cluster: 11, latitude:  -33.667240, longitude: 151.269348
+Cluster: 12, latitude:  -38.218605, longitude: 145.054138
+Cluster: 13, latitude:  -30.206947, longitude: 151.849686
+Cluster: 14, latitude:  -36.089725, longitude: 144.071198
+Cluster: 15, latitude:  -35.207378, longitude: 150.334442
+Cluster: 16, latitude:  -28.204914, longitude: 153.383362
+Cluster: 17, latitude:  -34.203083, longitude: 150.950760
+Cluster: 18, latitude:  -23.641087, longitude: 150.070923
+Cluster: 19, latitude:  -34.789845, longitude: 138.654007
+Cluster: 20, latitude:  -17.476837, longitude: 142.798553
+Cluster: 21, latitude:  -35.462215, longitude: 149.085251
+Cluster: 22, latitude:  -27.651794, longitude: 152.790100
+Cluster: 23, latitude:  -31.767296, longitude: 116.166252
 ----------------------------
 ============================
 K: 20
 ----------------------------
-Cluster: 0, latitude:  -34.702892, longitude: 150.014374
-Cluster: 1, latitude:  -20.352137, longitude: 146.787430
-Cluster: 2, latitude:  -32.689896, longitude: 116.428078
-Cluster: 3, latitude:  -34.661633, longitude: 138.701965
-Cluster: 4, latitude:  -36.182980, longitude: 146.732452
-Cluster: 5, latitude:  -28.245268, longitude: 152.577682
-Cluster: 6, latitude:  -37.370880, longitude: 144.276138
-Cluster: 7, latitude:  -33.869705, longitude: 151.108963
-Cluster: 8, latitude:  -33.376896, longitude: 151.415298
-Cluster: 9, latitude:  -32.248802, longitude: 151.754120
-Cluster: 10, latitude:  -40.792561, longitude: 146.656784
-Cluster: 11, latitude:  -33.626865, longitude: 150.631729
-Cluster: 12, latitude:  -27.587069, longitude: 153.137161
-Cluster: 13, latitude:  -33.843071, longitude: 151.249191
-Cluster: 14, latitude:  -25.526890, longitude: 152.065399
-Cluster: 15, latitude:  -37.865425, longitude: 142.727234
-Cluster: 16, latitude:  -25.644005, longitude: 152.819946
-Cluster: 17, latitude:  -31.849297, longitude: 115.868813
-Cluster: 18, latitude:  -19.780193, longitude: 124.046555
-Cluster: 19, latitude:  -37.837894, longitude: 145.037903
+Cluster: 0, latitude:  -38.101631, longitude: 145.448792
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.040810, longitude: 146.983246
+Cluster: 3, latitude:  -35.659611, longitude: 146.646042
+Cluster: 4, latitude:  -32.703064, longitude: 151.726196
+Cluster: 5, latitude:  -37.767517, longitude: 145.031021
+Cluster: 6, latitude:  -32.584080, longitude: 148.726395
+Cluster: 7, latitude:  -37.882160, longitude: 143.815994
+Cluster: 8, latitude:  -26.088514, longitude: 152.727936
+Cluster: 9, latitude:  -27.450281, longitude: 153.064392
+Cluster: 10, latitude:  -33.821243, longitude: 150.897552
+Cluster: 11, latitude:  -33.698093, longitude: 151.255875
+Cluster: 12, latitude:  -38.243130, longitude: 145.038559
+Cluster: 13, latitude:  -30.546686, longitude: 151.957642
+Cluster: 14, latitude:  -35.975632, longitude: 143.824799
+Cluster: 15, latitude:  -35.496288, longitude: 150.249527
+Cluster: 16, latitude:  -28.233444, longitude: 153.375702
+Cluster: 17, latitude:  -34.267673, longitude: 150.848083
+Cluster: 18, latitude:  -21.723219, longitude: 148.557343
+Cluster: 19, latitude:  -34.697971, longitude: 138.583496
+Cluster: 20, latitude:  -16.396534, longitude: 140.751373
+Cluster: 21, latitude:  -35.314682, longitude: 148.995422
+Cluster: 22, latitude:  -27.633877, longitude: 152.268433
+Cluster: 23, latitude:  -31.767296, longitude: 116.166252
 ----------------------------
 ============================
 K: 18
 ----------------------------
-Cluster: 0, latitude:  -34.702248, longitude: 150.008591
-Cluster: 1, latitude:  -19.213289, longitude: 143.977005
-Cluster: 2, latitude:  -32.589622, longitude: 116.354767
-Cluster: 3, latitude:  -34.648918, longitude: 138.687698
-Cluster: 4, latitude:  -36.197510, longitude: 146.684875
-Cluster: 5, latitude:  -28.244749, longitude: 152.576614
-Cluster: 6, latitude:  -37.791130, longitude: 144.940094
-Cluster: 7, latitude:  -33.869705, longitude: 151.108963
-Cluster: 8, latitude:  -33.376896, longitude: 151.415298
-Cluster: 9, latitude:  -32.248802, longitude: 151.754120
-Cluster: 10, latitude:  -40.653252, longitude: 146.593185
-Cluster: 11, latitude:  -33.626865, longitude: 150.631729
-Cluster: 12, latitude:  -27.587069, longitude: 153.137161
-Cluster: 13, latitude:  -33.843071, longitude: 151.249191
-Cluster: 14, latitude:  -24.707466, longitude: 151.467560
-Cluster: 15, latitude:  -37.620445, longitude: 142.937149
-Cluster: 16, latitude:  -25.828279, longitude: 152.549896
-Cluster: 17, latitude:  -30.850542, longitude: 115.956078
+Cluster: 0, latitude:  -38.002384, longitude: 145.412857
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.035496, longitude: 147.070312
+Cluster: 3, latitude:  -35.758118, longitude: 146.478775
+Cluster: 4, latitude:  -32.738091, longitude: 151.700989
+Cluster: 5, latitude:  -37.749931, longitude: 144.965698
+Cluster: 6, latitude:  -32.534676, longitude: 148.692688
+Cluster: 7, latitude:  -37.691769, longitude: 142.857834
+Cluster: 8, latitude:  -25.730434, longitude: 152.488037
+Cluster: 9, latitude:  -27.444874, longitude: 153.036987
+Cluster: 10, latitude:  -33.837666, longitude: 150.901749
+Cluster: 11, latitude:  -33.714653, longitude: 151.244141
+Cluster: 12, latitude:  -38.196014, longitude: 144.783249
+Cluster: 13, latitude:  -30.649761, longitude: 152.028839
+Cluster: 14, latitude:  -35.814949, longitude: 143.674698
+Cluster: 15, latitude:  -35.878006, longitude: 150.166824
+Cluster: 16, latitude:  -28.232813, longitude: 153.366745
+Cluster: 17, latitude:  -34.414368, longitude: 150.745819
+Cluster: 18, latitude:  -19.998581, longitude: 147.429260
+Cluster: 19, latitude:  -34.664783, longitude: 138.554398
+Cluster: 20, latitude:  -15.428076, longitude: 133.546829
+Cluster: 21, latitude:  -35.235043, longitude: 149.021423
+Cluster: 22, latitude:  -27.563597, longitude: 151.563522
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 16
 ----------------------------
-Cluster: 0, latitude:  -37.970455, longitude: 143.915802
-Cluster: 1, latitude:  -32.194416, longitude: 151.572754
-Cluster: 2, latitude:  -16.724728, longitude: 126.937271
-Cluster: 3, latitude:  -19.239964, longitude: 146.565948
-Cluster: 4, latitude:  -34.640118, longitude: 138.536987
-Cluster: 5, latitude:  -28.959669, longitude: 115.081795
-Cluster: 6, latitude:  -33.695415, longitude: 151.257355
-Cluster: 7, latitude:  -26.938702, longitude: 152.644928
-Cluster: 8, latitude:  -28.544590, longitude: 153.146133
-Cluster: 9, latitude:  -32.477646, longitude: 115.846725
-Cluster: 10, latitude:  -32.942520, longitude: 118.637222
-Cluster: 11, latitude:  -37.411144, longitude: 145.091278
-Cluster: 12, latitude:  -38.967628, longitude: 145.774384
-Cluster: 13, latitude:  -36.329758, longitude: 141.757629
-Cluster: 14, latitude:  -34.194256, longitude: 150.337387
-Cluster: 15, latitude:  -31.856562, longitude: 115.821625
+Cluster: 0, latitude:  -38.007622, longitude: 145.322540
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.038231, longitude: 147.069885
+Cluster: 3, latitude:  -35.780788, longitude: 146.461838
+Cluster: 4, latitude:  -32.741531, longitude: 151.698944
+Cluster: 5, latitude:  -37.710129, longitude: 144.932739
+Cluster: 6, latitude:  -32.536648, longitude: 148.680984
+Cluster: 7, latitude:  -37.643032, longitude: 141.944489
+Cluster: 8, latitude:  -24.967369, longitude: 151.869324
+Cluster: 9, latitude:  -27.386705, longitude: 153.019455
+Cluster: 10, latitude:  -33.850422, longitude: 150.890625
+Cluster: 11, latitude:  -33.721012, longitude: 151.238342
+Cluster: 12, latitude:  -38.062946, longitude: 144.411850
+Cluster: 13, latitude:  -30.676344, longitude: 152.072495
+Cluster: 14, latitude:  -35.664951, longitude: 143.545700
+Cluster: 15, latitude:  -36.124985, longitude: 150.013367
+Cluster: 16, latitude:  -28.232391, longitude: 153.360855
+Cluster: 17, latitude:  -34.574562, longitude: 150.720184
+Cluster: 18, latitude:  -19.170853, longitude: 146.578766
+Cluster: 19, latitude:  -34.646889, longitude: 138.543427
+Cluster: 20, latitude:  -14.940451, longitude: 130.810455
+Cluster: 21, latitude:  -35.214367, longitude: 149.005981
+Cluster: 22, latitude:  -27.568312, longitude: 151.263931
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 14
 ----------------------------
-Cluster: 0, latitude:  -37.963482, longitude: 143.919113
-Cluster: 1, latitude:  -32.195988, longitude: 151.565689
-Cluster: 2, latitude:  -16.724728, longitude: 126.937271
-Cluster: 3, latitude:  -19.239964, longitude: 146.565948
-Cluster: 4, latitude:  -34.640118, longitude: 138.536987
-Cluster: 5, latitude:  -29.120226, longitude: 115.124474
-Cluster: 6, latitude:  -34.071835, longitude: 150.582474
-Cluster: 7, latitude:  -26.938850, longitude: 152.644913
-Cluster: 8, latitude:  -28.547743, longitude: 153.146164
-Cluster: 9, latitude:  -32.175835, longitude: 115.832573
-Cluster: 10, latitude:  -32.961540, longitude: 118.585953
-Cluster: 11, latitude:  -37.372540, longitude: 145.129196
-Cluster: 12, latitude:  -38.967251, longitude: 145.776001
-Cluster: 13, latitude:  -36.333328, longitude: 141.754303
+Cluster: 0, latitude:  -38.011009, longitude: 145.266037
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.048382, longitude: 147.046341
+Cluster: 3, latitude:  -35.785152, longitude: 146.456757
+Cluster: 4, latitude:  -32.740185, longitude: 151.694382
+Cluster: 5, latitude:  -37.658031, longitude: 144.895203
+Cluster: 6, latitude:  -32.541557, longitude: 148.694611
+Cluster: 7, latitude:  -37.634399, longitude: 141.638763
+Cluster: 8, latitude:  -24.485741, longitude: 151.409286
+Cluster: 9, latitude:  -27.330009, longitude: 153.005981
+Cluster: 10, latitude:  -33.852066, longitude: 150.877396
+Cluster: 11, latitude:  -33.736645, longitude: 151.224976
+Cluster: 12, latitude:  -37.981461, longitude: 144.240097
+Cluster: 13, latitude:  -30.674923, longitude: 152.086426
+Cluster: 14, latitude:  -34.772850, longitude: 142.955765
+Cluster: 15, latitude:  -36.297771, longitude: 149.831650
+Cluster: 16, latitude:  -28.226357, longitude: 153.342041
+Cluster: 17, latitude:  -34.642197, longitude: 150.702805
+Cluster: 18, latitude:  -18.995672, longitude: 146.490402
+Cluster: 19, latitude:  -34.690552, longitude: 138.490265
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.186649, longitude: 149.012131
+Cluster: 22, latitude:  -27.487686, longitude: 151.223221
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 12
 ----------------------------
-Cluster: 0, latitude:  -30.398909, longitude: 150.400375
-Cluster: 1, latitude:  -33.449799, longitude: 138.305634
-Cluster: 2, latitude:  -23.986996, longitude: 150.436035
-Cluster: 3, latitude:  -34.142769, longitude: 150.771393
-Cluster: 4, latitude:  -37.641933, longitude: 144.792603
-Cluster: 5, latitude:  -34.655144, longitude: 148.379776
-Cluster: 6, latitude:  -39.567558, longitude: 146.113434
-Cluster: 7, latitude:  -33.706871, longitude: 151.210754
-Cluster: 8, latitude:  -29.291655, longitude: 152.746765
-Cluster: 9, latitude:  -27.695242, longitude: 153.123184
-Cluster: 10, latitude:  -32.522774, longitude: 151.872772
-Cluster: 11, latitude:  -31.751982, longitude: 116.178024
+Cluster: 0, latitude:  -37.996490, longitude: 145.225754
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.063190, longitude: 146.997314
+Cluster: 3, latitude:  -35.782406, longitude: 146.425919
+Cluster: 4, latitude:  -32.756565, longitude: 151.687943
+Cluster: 5, latitude:  -37.618427, longitude: 144.857941
+Cluster: 6, latitude:  -32.551918, longitude: 148.704300
+Cluster: 7, latitude:  -37.599068, longitude: 141.586594
+Cluster: 8, latitude:  -24.287113, longitude: 151.220886
+Cluster: 9, latitude:  -27.312216, longitude: 153.001083
+Cluster: 10, latitude:  -33.843994, longitude: 150.846893
+Cluster: 11, latitude:  -33.774712, longitude: 151.198227
+Cluster: 12, latitude:  -37.948502, longitude: 144.111435
+Cluster: 13, latitude:  -30.674923, longitude: 152.086426
+Cluster: 14, latitude:  -34.256454, longitude: 142.181549
+Cluster: 15, latitude:  -36.341011, longitude: 149.806244
+Cluster: 16, latitude:  -28.211987, longitude: 153.329880
+Cluster: 17, latitude:  -34.660316, longitude: 150.705109
+Cluster: 18, latitude:  -18.915321, longitude: 146.441727
+Cluster: 19, latitude:  -34.697495, longitude: 138.450882
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.182854, longitude: 149.020004
+Cluster: 22, latitude:  -27.441809, longitude: 151.266586
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 10
 ----------------------------
-Cluster: 0, latitude:  -31.270105, longitude: 151.641785
-Cluster: 1, latitude:  -32.603516, longitude: 127.302116
-Cluster: 2, latitude:  -23.989508, longitude: 150.438156
-Cluster: 3, latitude:  -34.144344, longitude: 150.770752
-Cluster: 4, latitude:  -37.641933, longitude: 144.792603
-Cluster: 5, latitude:  -34.616959, longitude: 148.379730
-Cluster: 6, latitude:  -39.566982, longitude: 146.113876
-Cluster: 7, latitude:  -33.484097, longitude: 151.328629
-Cluster: 8, latitude:  -29.236496, longitude: 152.558594
-Cluster: 9, latitude:  -27.698717, longitude: 153.124374
+Cluster: 0, latitude:  -37.982330, longitude: 145.207886
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.058475, longitude: 146.986343
+Cluster: 3, latitude:  -35.790016, longitude: 146.401093
+Cluster: 4, latitude:  -32.768436, longitude: 151.683426
+Cluster: 5, latitude:  -37.593437, longitude: 144.828629
+Cluster: 6, latitude:  -32.544647, longitude: 148.691803
+Cluster: 7, latitude:  -37.572258, longitude: 141.580673
+Cluster: 8, latitude:  -23.585617, longitude: 150.636993
+Cluster: 9, latitude:  -27.282822, longitude: 152.996033
+Cluster: 10, latitude:  -33.836147, longitude: 150.820175
+Cluster: 11, latitude:  -33.795078, longitude: 151.178482
+Cluster: 12, latitude:  -37.934105, longitude: 144.053040
+Cluster: 13, latitude:  -30.676189, longitude: 152.085083
+Cluster: 14, latitude:  -34.042721, longitude: 141.969635
+Cluster: 15, latitude:  -36.350418, longitude: 149.799042
+Cluster: 16, latitude:  -28.205746, longitude: 153.328079
+Cluster: 17, latitude:  -34.668770, longitude: 150.705719
+Cluster: 18, latitude:  -18.451242, longitude: 145.958054
+Cluster: 19, latitude:  -34.698116, longitude: 138.449585
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.181072, longitude: 149.001862
+Cluster: 22, latitude:  -27.440910, longitude: 151.281143
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 8
 ----------------------------
-Cluster: 0, latitude:  -30.755543, longitude: 151.894043
-Cluster: 1, latitude:  -32.602562, longitude: 127.303352
-Cluster: 2, latitude:  -25.826406, longitude: 151.729202
-Cluster: 3, latitude:  -34.144344, longitude: 150.770752
-Cluster: 4, latitude:  -37.641933, longitude: 144.792603
-Cluster: 5, latitude:  -34.616959, longitude: 148.379730
-Cluster: 6, latitude:  -39.566982, longitude: 146.113876
-Cluster: 7, latitude:  -33.476177, longitude: 151.334488
+Cluster: 0, latitude:  -37.971275, longitude: 145.198975
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.059540, longitude: 146.984680
+Cluster: 3, latitude:  -35.817081, longitude: 146.385910
+Cluster: 4, latitude:  -32.770409, longitude: 151.680756
+Cluster: 5, latitude:  -37.581650, longitude: 144.810867
+Cluster: 6, latitude:  -32.537663, longitude: 148.643494
+Cluster: 7, latitude:  -37.552597, longitude: 141.584885
+Cluster: 8, latitude:  -23.144728, longitude: 150.115082
+Cluster: 9, latitude:  -27.217310, longitude: 152.986954
+Cluster: 10, latitude:  -33.827209, longitude: 150.792297
+Cluster: 11, latitude:  -33.803967, longitude: 151.164047
+Cluster: 12, latitude:  -37.935829, longitude: 144.043869
+Cluster: 13, latitude:  -30.678692, longitude: 152.086349
+Cluster: 14, latitude:  -33.992275, longitude: 141.945312
+Cluster: 15, latitude:  -36.350418, longitude: 149.799042
+Cluster: 16, latitude:  -28.194855, longitude: 153.323959
+Cluster: 17, latitude:  -34.670528, longitude: 150.705994
+Cluster: 18, latitude:  -18.304962, longitude: 145.834503
+Cluster: 19, latitude:  -34.698116, longitude: 138.449585
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.175869, longitude: 148.990433
+Cluster: 22, latitude:  -27.394144, longitude: 151.345993
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 6
 ----------------------------
-Cluster: 0, latitude:  -42.070827, longitude: 147.019104
-Cluster: 1, latitude:  -37.905304, longitude: 144.648392
-Cluster: 2, latitude:  -21.991524, longitude: 148.186890
-Cluster: 3, latitude:  -31.704268, longitude: 116.226562
-Cluster: 4, latitude:  -31.230036, longitude: 151.747482
-Cluster: 5, latitude:  -36.391350, longitude: 143.351105
+Cluster: 0, latitude:  -37.966290, longitude: 145.191849
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.060219, longitude: 146.983047
+Cluster: 3, latitude:  -35.817081, longitude: 146.385910
+Cluster: 4, latitude:  -32.777905, longitude: 151.683441
+Cluster: 5, latitude:  -37.573124, longitude: 144.802109
+Cluster: 6, latitude:  -32.498585, longitude: 148.582596
+Cluster: 7, latitude:  -37.550022, longitude: 141.587067
+Cluster: 8, latitude:  -22.728125, longitude: 149.598709
+Cluster: 9, latitude:  -27.116356, longitude: 152.956329
+Cluster: 10, latitude:  -33.815269, longitude: 150.760986
+Cluster: 11, latitude:  -33.810589, longitude: 151.153152
+Cluster: 12, latitude:  -37.936642, longitude: 144.037872
+Cluster: 13, latitude:  -30.662565, longitude: 152.034958
+Cluster: 14, latitude:  -33.991486, longitude: 141.935532
+Cluster: 15, latitude:  -36.350418, longitude: 149.799042
+Cluster: 16, latitude:  -28.137150, longitude: 153.307266
+Cluster: 17, latitude:  -34.670204, longitude: 150.707504
+Cluster: 18, latitude:  -18.259102, longitude: 145.810425
+Cluster: 19, latitude:  -34.698116, longitude: 138.449585
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.176857, longitude: 148.989960
+Cluster: 22, latitude:  -27.312372, longitude: 151.376251
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 4
 ----------------------------
-Cluster: 0, latitude:  -42.070827, longitude: 147.019104
-Cluster: 1, latitude:  -35.978355, longitude: 145.792572
-Cluster: 2, latitude:  -27.271366, longitude: 151.689560
-Cluster: 3, latitude:  -30.770685, longitude: 116.968918
+Cluster: 0, latitude:  -37.962383, longitude: 145.186722
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.060219, longitude: 146.983047
+Cluster: 3, latitude:  -35.817081, longitude: 146.385910
+Cluster: 4, latitude:  -32.779354, longitude: 151.686371
+Cluster: 5, latitude:  -37.565662, longitude: 144.795334
+Cluster: 6, latitude:  -32.471989, longitude: 148.551407
+Cluster: 7, latitude:  -37.550022, longitude: 141.587067
+Cluster: 8, latitude:  -22.581226, longitude: 149.425949
+Cluster: 9, latitude:  -26.851017, longitude: 152.905823
+Cluster: 10, latitude:  -33.809681, longitude: 150.737244
+Cluster: 11, latitude:  -33.812584, longitude: 151.144058
+Cluster: 12, latitude:  -37.939472, longitude: 144.036011
+Cluster: 13, latitude:  -30.658388, longitude: 152.027573
+Cluster: 14, latitude:  -33.991486, longitude: 141.935532
+Cluster: 15, latitude:  -36.350418, longitude: 149.799042
+Cluster: 16, latitude:  -27.870045, longitude: 153.171127
+Cluster: 17, latitude:  -34.670204, longitude: 150.707504
+Cluster: 18, latitude:  -18.152700, longitude: 145.760315
+Cluster: 19, latitude:  -34.698116, longitude: 138.449585
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.176857, longitude: 148.989960
+Cluster: 22, latitude:  -27.310553, longitude: 151.346970
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
 ============================
 K: 2
 ----------------------------
-Cluster: 0, latitude:  -42.070827, longitude: 147.019104
-Cluster: 1, latitude:  -32.772751, longitude: 144.408432
+Cluster: 0, latitude:  -37.958107, longitude: 145.181931
+Cluster: 1, latitude:  -42.072323, longitude: 147.018387
+Cluster: 2, latitude:  -38.062737, longitude: 146.978043
+Cluster: 3, latitude:  -35.818203, longitude: 146.385635
+Cluster: 4, latitude:  -32.780201, longitude: 151.685913
+Cluster: 5, latitude:  -37.558876, longitude: 144.788437
+Cluster: 6, latitude:  -32.449440, longitude: 148.549973
+Cluster: 7, latitude:  -37.550022, longitude: 141.587067
+Cluster: 8, latitude:  -22.534706, longitude: 149.372131
+Cluster: 9, latitude:  -26.418707, longitude: 152.810837
+Cluster: 10, latitude:  -33.810078, longitude: 150.722931
+Cluster: 11, latitude:  -33.812687, longitude: 151.136337
+Cluster: 12, latitude:  -37.942211, longitude: 144.035309
+Cluster: 13, latitude:  -30.648890, longitude: 152.084839
+Cluster: 14, latitude:  -33.991486, longitude: 141.935532
+Cluster: 15, latitude:  -36.350418, longitude: 149.799042
+Cluster: 16, latitude:  -27.743587, longitude: 153.118515
+Cluster: 17, latitude:  -34.670670, longitude: 150.707672
+Cluster: 18, latitude:  -18.152700, longitude: 145.760315
+Cluster: 19, latitude:  -34.698116, longitude: 138.449585
+Cluster: 20, latitude:  -14.892954, longitude: 130.679459
+Cluster: 21, latitude:  -35.168854, longitude: 148.988144
+Cluster: 22, latitude:  -27.490946, longitude: 151.285126
+Cluster: 23, latitude:  -31.861547, longitude: 116.123825
 ----------------------------
